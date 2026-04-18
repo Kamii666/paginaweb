@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tabla de paquetes y planes de viaje con precios e itinerarios.">
+    <meta name="keywords" content="paquetes turisticos, precios turismo, itinerarios">
+    <meta name="author" content="Tu Nombre">
+    <meta property="og:title" content="Portal Turístico - Paquetes de Viaje">
+    <title>Paquetes | Portal Turístico</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <i class="bi bi-compass text-primary"></i> EcoViajes
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="informacion.html">Destinos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="galeria.html">Galería</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="tabla.html">Paquetes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="pt-5 mt-4">
+        <!-- Page Header -->
+        <div class="page-header">
+            <div class="container">
+                <h1 class="display-4 fw-bold">Planes de Viaje y Paquetes</h1>
+                <p class="lead">Compara nuestras ofertas y elige la aventura que marcará tu vida.</p>
+            </div>
+        </div>
+
+        <div class="container mb-5">
+            <div class="table-responsive">
+                <table class="table table-hover align-middle custom-table">
+                    <thead>
+                        <tr>
+                            <th scope="col" class="py-3 px-4">Destino / Paquete</th>
+                            <th scope="col" class="py-3 text-center">Duración (Días)</th>
+                            <th scope="col" class="py-3 text-center">Dificultad</th>
+                            <th scope="col" class="py-3 text-end px-4">Precio (USD)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="px-4"><strong>Expedición Amazonia Profunda</strong><br><small class="text-muted">Aventura en la selva, observación de fauna</small></td>
+                            <td class="text-center">7</td>
+                            <td class="text-center"><span class="badge bg-warning text-dark">Media</span></td>
+                            <td class="text-end px-4">$850</td>
+                        </tr>
+                        <tr>
+                            <td class="px-4"><strong>Ruta Colonial e Histórica</strong><br><small class="text-muted">Recorrido por pueblos patrimonio y museos</small></td>
+                            <td class="text-center">5</td>
+                            <td class="text-center"><span class="badge bg-success">Baja</span></td>
+                            <td class="text-end px-4">$540</td>
+                        </tr>
+                        <tr>
+                            <td class="px-4"><strong>Cumbres Nevadas Extremo</strong><br><small class="text-muted">Senderismo de alta montaña, acampada</small></td>
+                            <td class="text-center">4</td>
+                            <td class="text-center"><span class="badge bg-danger">Alta</span></td>
+                            <td class="text-end px-4">$620</td>
+                        </tr>
+                        <tr>
+                            <td class="px-4"><strong>Relajación en Riviera Cristal</strong><br><small class="text-muted">Resort todo incluido, aguas termales, playas</small></td>
+                            <td class="text-center">8</td>
+                            <td class="text-center"><span class="badge bg-success">Baja</span></td>
+                            <td class="text-end px-4">$1200</td>
+                        </tr>
+                        <tr>
+                            <td class="px-4"><strong>Misterios Mayas y Cenotes</strong><br><small class="text-muted">Ruinas arqueológicas, buceo en cuevas</small></td>
+                            <td class="text-center">6</td>
+                            <td class="text-center"><span class="badge bg-warning text-dark">Media</span></td>
+                            <td class="text-end px-4">$930</td>
+                        </tr>
+                        <tr>
+                            <td class="px-4"><strong>Fotografía Safari Andino</strong><br><small class="text-muted">Avistamiento de aves endémicas y felinos</small></td>
+                            <td class="text-center">5</td>
+                            <td class="text-center"><span class="badge bg-warning text-dark">Media</span></td>
+                            <td class="text-end px-4">$780</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3" class="px-4 py-3 align-middle">
+                                <small>* Los precios incluyen alojamiento, guía bilingüe y seguro de viaje. Los vuelos no están incluidos.</small>
+                            </td>
+                            <td class="text-end px-4 py-3 align-middle">
+                                <a href="contacto.html" class="btn btn-sm btn-primary">Reservar Ahora</a>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-md-6 mb-3">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary"><i class="bi bi-shield-check"></i> Seguro Incluido</h5>
+                            <p class="card-text">Todos nuestros paquetes cuentan con seguro médico de cobertura internacional ante cualquier emergencia médica u hospitalaria durante tu viaje.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary"><i class="bi bi-calendar-event"></i> Flexibilidad</h5>
+                            <p class="card-text">Poseemos una nueva política de cancelación que te permite modificar las fechas de tu partida sin costo adicional hasta 15 días antes del vuelo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container text-center">
+            <h4 class="mb-3">EcoViajes</h4>
+            <p class="text-muted small mb-0">&copy; 2026 EcoViajes Portal Turístico. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

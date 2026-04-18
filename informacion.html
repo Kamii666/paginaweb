@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Información detallada de destinos turísticos ecológicos y rutas de exploración.">
+    <meta name="keywords" content="destinos, información turística, ecoturismo, cascadas, pueblos coloniales">
+    <meta name="author" content="Tu Nombre">
+    <meta property="og:title" content="Portal Turístico - Información">
+    <meta property="og:description" content="Conoce a fondo nuestros destinos destacados y planifica tu próximo viaje.">
+    
+    <title>Destinos | Portal Turístico</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <i class="bi bi-compass text-primary"></i> EcoViajes
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="informacion.html">Destinos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="galeria.html">Galería</a></li>
+                        <li class="nav-item"><a class="nav-link" href="tabla.html">Paquetes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="pt-5 mt-4">
+        <!-- Page Header -->
+        <div class="page-header">
+            <div class="container">
+                <h1 class="display-4 fw-bold">Nuestros Destinos</h1>
+                <p class="lead">Sumérgete en la cultura, historia y diversidad natural de las locaciones.</p>
+            </div>
+        </div>
+
+        <div class="container mb-5">
+            <div class="row">
+                <!-- Zona Principal (Article y Sections) -->
+                <div class="col-lg-8">
+                    <!-- Article Semántico -->
+                    <article>
+                        <header class="mb-4">
+                            <h2>Exploración Profunda</h2>
+                            <p class="text-muted">Publicado el 20 de Abril por Guías Locales</p>
+                        </header>
+                        
+                        <!-- Section 1 -->
+                        <section class="mb-5">
+                            <h3>Magia en la Selva: Encuentro con la Naturaleza</h3>
+                            <img src="img/gallery_6_1776141737202.png" alt="Guacamayo vibrante" class="img-fluid rounded mb-3" loading="lazy">
+                            <p>La biodiversidad de nuestros santuarios de vida silvestre es inigualable. Al adentrarse en la selva, te rodearán los cantos de aves exóticas y la exuberante flora. El turismo responsable permite la conservación de estas especies maravillosas.</p>
+                        </section>
+
+                        <!-- Section 2 -->
+                        <section class="mb-5">
+                            <h3>Pueblos con Historia y Color</h3>
+                            <div class="row align-items-center">
+                                <div class="col-md-6 mb-3 mb-md-0">
+                                    <p>Descubre calles empedradas, fachadas coloniales y una calidez humana única. Cada rincón cuenta una historia ancestral, mezclando la tradición indígena y el patrimonio español.</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="img/gallery_4_1776141694200.png" alt="Calle colonial concurrida" class="img-fluid rounded" loading="lazy">
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Section 3 -->
+                        <section class="mb-5">
+                            <h3>Paraíso Acuático y Cascadas Secretas</h3>
+                            <p>El poder del agua define muchos de los destinos. Desde imponentes cascadas escondidas en lo profundo de la Amazonia hasta reservas marinas en el Caribe para practicar snorkel y buceo.</p>
+                            <img src="img/gallery_3_1776141676306.png" alt="Cascada majestuosa en reserva natural" class="img-fluid rounded" loading="lazy">
+                        </section>
+                    </article>
+                </div>
+
+                <!-- Aside Semántico -->
+                <aside class="col-lg-4">
+                    <div class="card mb-4 bg-light shadow-sm">
+                        <div class="card-body">
+                            <h4 class="card-title"><i class="bi bi-info-circle-fill text-primary"></i> Guía del Viajero</h4>
+                            <p class="card-text text-muted">Asegúrate de empacar ligero, utilizar protector solar biodegradable y traer una excelente cámara fotográfica.</p>
+                        </div>
+                    </div>
+
+                    <div class="card shadow-sm">
+                        <div class="card-header bg-primary text-white">
+                            <h5 class="mb-0">Destinos Populares</h5>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Bosques Nubosos
+                                <span class="badge bg-secondary rounded-pill">Top</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Arrecifes de Coral
+                                <span class="badge bg-primary rounded-pill">Nuevo</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Ruinas Mayas
+                            </li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container text-center">
+            <h4 class="mb-3">EcoViajes</h4>
+            <p class="text-muted small mb-0">&copy; 2026 EcoViajes Portal Turístico. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
